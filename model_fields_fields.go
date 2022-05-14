@@ -1,7 +1,7 @@
 /*
  * ClickSend v3 API
  *
- *  This is an official SDK for [ClickSend](https://clicksend.com)  Below you will find a current list of the available methods for clicksend.  *NOTE: You will need to create a free account to use the API. You can register [here](https://dashboard.clicksend.com/#/signup/step1/)..* 
+ *  This is an official SDK for [ClickSend](https://clicksend.com)  Below you will find a current list of the available methods for clicksend.  *NOTE: You will need to create a free account to use the API. You can register [here](https://dashboard.clicksend.com/#/signup/step1/)..*
  *
  * API version: 3.1
  * Contact: support@clicksend.com
@@ -14,7 +14,7 @@ package clicksend
 type FieldsFields struct {
 	// Your phone number in E.164 format. Must be provided if no fax number or email.
 	PhoneNumber string `json:"phone_number,omitempty"`
-	// 
+	//
 	Custom1 string `json:"custom_1,omitempty"`
 	// Your email. Must be provided if no phone number or fax number.
 	Email string `json:"email,omitempty"`
@@ -24,7 +24,7 @@ type FieldsFields struct {
 	FirstName string `json:"first_name,omitempty"`
 	// Your street address
 	AddressLine1 string `json:"address_line_1,omitempty"`
-	// 
+	//
 	AddressLine2 string `json:"address_line_2,omitempty"`
 	// Your nearest city
 	AddressCity string `json:"address_city,omitempty"`
@@ -36,11 +36,11 @@ type FieldsFields struct {
 	AddressCountry string `json:"address_country,omitempty"`
 	// Your organisation name
 	OrganizationName string `json:"organization_name,omitempty"`
-	// 
+	//
 	Custom2 string `json:"custom_2,omitempty"`
-	// 
+	//
 	Custom3 string `json:"custom_3,omitempty"`
-	// 
+	//
 	Custom4 string `json:"custom_4,omitempty"`
 	// Your last name
 	LastName string `json:"last_name,omitempty"`

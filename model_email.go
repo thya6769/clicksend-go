@@ -1,7 +1,7 @@
 /*
  * ClickSend v3 API
  *
- *  This is an official SDK for [ClickSend](https://clicksend.com)  Below you will find a current list of the available methods for clicksend.  *NOTE: You will need to create a free account to use the API. You can register [here](https://dashboard.clicksend.com/#/signup/step1/)..* 
+ *  This is an official SDK for [ClickSend](https://clicksend.com)  Below you will find a current list of the available methods for clicksend.  *NOTE: You will need to create a free account to use the API. You can register [here](https://dashboard.clicksend.com/#/signup/step1/)..*
  *
  * API version: 3.1
  * Contact: support@clicksend.com
@@ -17,8 +17,8 @@ type Email struct {
 	// Array of Cc Recipient items.
 	Cc []EmailRecipient `json:"cc,omitempty"`
 	// Array of Bcc Recipient items.
-	Bcc []EmailRecipient `json:"bcc,omitempty"`
-	From *EmailFrom `json:"from"`
+	Bcc  []EmailRecipient `json:"bcc,omitempty"`
+	From *EmailFrom       `json:"from"`
 	// Subject of the email.
 	Subject string `json:"subject,omitempty"`
 	// Body of the email.
